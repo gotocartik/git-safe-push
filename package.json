@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "bin": {
-    "git-safe-push": "./cli.js"
+    "git-safe-push": "cli.js"
   },
   "license": "MIT",
   "keywords": [
