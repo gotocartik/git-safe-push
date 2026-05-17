@@ -1,0 +1,35 @@
+{
+  "name": "git-safe-push",
+  "version": "1.0.0",
+  "description": "A lightweight CLI tool that scans staged Git files before push and prevents dangerous code from being pushed accidentally.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "git-safe-push": "./cli.js"
+  },
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "pre-push",
+    "pre-commit",
+    "hook",
+    "safe-push",
+    "git-hooks",
+    "code-quality",
+    "console-log",
+    "debugger",
+    "secret-detection",
+    "api-keys",
+    "security",
+    "cli",
+    "developer-tools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gotocartik/git-safe-push.git"
+  },
+  "funding": "https://buymeacoffee.com/gotocartik",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
