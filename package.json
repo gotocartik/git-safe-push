@@ -1,6 +1,6 @@
 {
   "name": "git-safe-push",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight CLI tool that scans staged Git files before push and prevents dangerous code from being pushed accidentally.",
   "type": "module",
   "main": "index.js",
