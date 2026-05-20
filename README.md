@@ -1,6 +1,7 @@
 # git-safe-push
 
 ![npm](https://img.shields.io/npm/dt/git-safe-push)
+![npm](https://img.shields.io/npm/dw/git-safe-push)
 ![npm version](https://img.shields.io/npm/v/git-safe-push)
 ![license](https://img.shields.io/npm/l/git-safe-push)
 

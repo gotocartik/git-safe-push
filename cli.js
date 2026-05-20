@@ -26,6 +26,7 @@ exit 0
 }
 
 const args = process.argv.slice(2);
+const allow = args.includes("--allow");
 
 if (args[0] === "install") {
   const gitDir = execSync("git rev-parse --git-dir", { encoding: "utf-8" }).trim();
@@ -38,6 +39,11 @@ if (args[0] === "install") {
     console.log(`  ${green}✅ ${type} hook installed${reset}`);
   }
   console.log();
+  process.exit(0);
+}
+
+if (allow) {
+  console.log(`  ${yellow}⚠ --allow flag set, bypassing scan${reset}\n`);
   process.exit(0);
 }
 

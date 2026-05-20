@@ -22,6 +22,8 @@
     "api-keys",
     "security",
     "cli",
+    "focused-test",
+    "allow-flag",
     "developer-tools"
   ],
   "repository": {
